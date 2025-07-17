@@ -4,6 +4,20 @@
 
 This system assigns credit scores (0-1000) to cryptocurrency wallets based on their transaction behavior in the Aave V2 protocol. Higher scores indicate reliable usage, while lower scores suggest risky or exploitative behavior.
 
+## Key Files
+
+1. `zeru.py` - Main processing script
+   - Input: `input_transactions.json`
+   - Outputs: 
+     - `output_scores.json` (credit scores)
+     - `wallet_features_scores.csv` (features + scores)
+
+2. `plot.py` - Visualization script
+   - Input: `wallet_features_scores.csv`
+   - Outputs:
+     - `score_distribution.png`
+     - `risk_comparison.png`
+
 ## Methodology
 
 ### Algorithm: Isolation Forest
@@ -38,20 +52,5 @@ graph TD
     D --> F[CSV Features]
     F --> G[Behavior Analysis]
     G --> H[Risk Comparison Plots]
-
-
-## Key Files
-
-1. `zeru.py` - Main processing script
-   - Input: `input_transactions.json`
-   - Outputs: 
-     - `output_scores.json` (credit scores)
-     - `wallet_features_scores.csv` (features + scores)
-
-2. `plot.py` - Visualization script
-   - Input: `wallet_features_scores.csv`
-   - Outputs:
-     - `score_distribution.png`
-     - `risk_comparison.png`
     
 
