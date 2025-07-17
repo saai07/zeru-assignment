@@ -14,3 +14,7 @@ This analysis evaluates wallet behavior in the Aave V2 protocol using unsupervis
 - Liquidation Ratio: Low risk wallets have 5% liquidations vs high risk: 0%
 - Utilization: Low risk use 88% of deposits vs high risk: 276323362569%
 - TX Frequency: Low risk: 5.1/day vs high risk: 566.6/day
+
+# Scatter plots
+<img width="5400" height="3000" alt="scatter_analysis" src="https://github.com/user-attachments/assets/ea1691b9-9490-494b-93ac-4842496cd84e" />
+
