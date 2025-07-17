@@ -39,3 +39,19 @@ graph TD
     F --> G[Behavior Analysis]
     G --> H[Risk Comparison Plots]
 
+
+## Key Files
+
+1. `zeru.py` - Main processing script
+   - Input: `input_transactions.json`
+   - Outputs: 
+     - `output_scores.json` (credit scores)
+     - `wallet_features_scores.csv` (features + scores)
+
+2. `plot.py` - Visualization script
+   - Input: `wallet_features_scores.csv`
+   - Outputs:
+     - `score_distribution.png`
+     - `risk_comparison.png`
+    
+
