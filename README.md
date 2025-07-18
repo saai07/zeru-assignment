@@ -28,6 +28,23 @@ python -m venv env
 source env/bin/activate  # (Windows: env\Scripts\activate)
 pip install -r requirements.txt 
 ```
+### 2. Add Input File
+- Download the dataset and place the input_transactions.json in the root directory
+  
+ ### 3. Run Credit Scoring
+ ```bash
+python zeru.py
+ ```
+### 4. Run Analysis
+ ```bash
+python plot.py
+```
+### 5. Output Files
+output_scores.json: Final wallet credit scores
+
+wallet_features_scores.csv: Features + Scores
+
+score_distribution.png, feature_comparison.png: Visuals for reporting
 
 ## Methodology
 
