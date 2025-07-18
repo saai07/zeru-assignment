@@ -26,7 +26,8 @@ This system assigns credit scores (0-1000) to cryptocurrency wallets based on th
 git clone https://github.com/saai07/zeru-assignment.git
 python -m venv env
 source env/bin/activate  # (Windows: env\Scripts\activate)
-pip install -r requirements.txt
+pip install -r requirements.txt 
+```
 
 ## Methodology
 
@@ -62,5 +63,6 @@ graph TD
     D --> F[CSV Features]
     F --> G[Behavior Analysis]
     G --> H[Risk Comparison Plots]
+```
     
 
