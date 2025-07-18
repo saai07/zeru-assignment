@@ -1,6 +1,6 @@
 # zeru-assignment
 
-# DeFi Wallet Credit Scoring System
+# Wallet Credit Scoring System
 
 This system assigns credit scores (0-1000) to cryptocurrency wallets based on their transaction behavior in the Aave V2 protocol. Higher scores indicate reliable usage, while lower scores suggest risky or exploitative behavior.
 
